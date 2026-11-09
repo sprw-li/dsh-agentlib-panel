@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "技能库",
+    "description": "在 Harness 里浏览 agent-library 的共享技能目录，并测试一句话会命中哪个 intent / skill。"
+  }
+}

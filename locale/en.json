@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Agent Library",
+    "description": "Browse the shared agent-library skill catalog and test which intent or skill a request routes to."
+  }
+}

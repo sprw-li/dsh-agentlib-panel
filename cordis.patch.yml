@@ -1,0 +1,3 @@
+- insert:
+    - id: agentlib-panel
+      name: '@local/agentlib-panel'
