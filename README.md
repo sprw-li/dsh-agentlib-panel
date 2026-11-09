@@ -73,7 +73,7 @@ pnpm add link:/path/to/dsh-agentlib-panel
 
 | 环境变量 | 默认值 | 说明 |
 | --- | --- | --- |
-| `AGLIB_STORE` | `D:\agent-library` | agent-library 根目录；指向任意符合上面结构的库即可 |
+| `AGLIB_STORE` | `~/.agent-library` | agent-library 根目录；指向任意符合上面结构的库即可 |
 
 面板依赖库里的 `router.py`（路由测试）与 `scripts/store.py`（刷新索引），以及一个可用的 Python 解释器。
 

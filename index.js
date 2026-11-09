@@ -11,11 +11,12 @@
 import { existsSync } from 'node:fs'
 import { readFile, readdir, writeFile, unlink } from 'node:fs/promises'
 import { spawn } from 'node:child_process'
+import { homedir } from 'node:os'
 import { join, relative, resolve, sep } from 'node:path'
 
 export const inject = ['webServer']
 
-const DEFAULT_STORE = process.env.AGLIB_STORE || 'D:\\agent-library'
+const DEFAULT_STORE = process.env.AGLIB_STORE || join(homedir(), '.agent-library')
 const API_PREFIX = '/agentlib/api'
 const KEBAB = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
 const SECRET =
